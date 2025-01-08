@@ -1,5 +1,5 @@
-@import 'bootstrap/bootstrap';
-@import 'bootstrap/variables';
+@import 'bootstrap';
+@import 'variables';
 
 $font-primary: 'Poppins', Arial, sans-serif;
 $font-secondary: 'Great Vibes', cursive;
@@ -57,7 +57,7 @@ a {
 	&:focus {
 		text-decoration: none;
 		color: $primary;
-		outline: none !important;
+		outline: none ;
 	}
 }
 
@@ -78,13 +78,13 @@ h5,
 
 
 .top {
-	background: transparent !important;
+	background: transparent ;
 	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
 	z-index: 3;
-	background: rgba(255, 255, 255, .05) !important;
+	background: rgba(255, 255, 255, .05) ;
 	// border-bottom: 1px solid rgba(255,255,255,.2);
 	color: rgba(255, 255, 255, .5);
 	font-size: 14px;
@@ -95,7 +95,7 @@ h5,
 }
 
 .ftco-navbar-light {
-	background: transparent !important;
+	background: transparent ;
 	position: absolute;
 	top: 50px;
 	left: 0;
@@ -238,7 +238,7 @@ h5,
 
 	.navbar-toggler {
 		border: none;
-		color: rgba(255, 255, 255, .5) !important;
+		color: rgba(255, 255, 255, .5) ;
 		cursor: pointer;
 		padding-right: 0;
 		text-transform: uppercase;
@@ -246,7 +246,7 @@ h5,
 		letter-spacing: .1em;
 
 		&:focus {
-			outline: none !important;
+			outline: none;
 		}
 	}
 
@@ -256,7 +256,7 @@ h5,
 		left: 0;
 		top: 0;
 		margin-top: -130px;
-		background: $white !important;
+		background: $white ;
 		box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
 
 		@include media-breakpoint-up(lg) {
@@ -267,20 +267,20 @@ h5,
 		.nav-item {
 			&.active {
 				>a {
-					color: $primary !important;
+					color: $primary ;
 				}
 			}
 
 			&.cta {
 				>a {
-					color: $white !important;
+					color: $white ;
 					background: $primary;
-					border: none !important;
+					border: none ;
 					@include border-radius(0);
 
 					span {
 						display: inline-block;
-						color: $white !important;
+						color: $white ;
 					}
 				}
 
@@ -296,7 +296,7 @@ h5,
 			@include media-breakpoint-down(md) {
 				background: none;
 				border-radius: 0px;
-				padding-left: 0rem !important;
+				padding-left: 0rem ;
 				padding-right: 0rem !important;
 			}
 		}
